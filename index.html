@@ -62,11 +62,6 @@
   .scroll-cue{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:2;width:1px;height:56px;background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.7));animation:cue 2s infinite}
   @keyframes cue{0%{opacity:0;transform:translate(-50%,-10px)}50%{opacity:1}100%{opacity:0;transform:translate(-50%,10px)}}
 
-  /* ---------- STRIP ---------- */
-  .strip{background:var(--oak);color:var(--ink);overflow:hidden;white-space:nowrap;padding:18px 0}
-  .strip-track{display:inline-flex;gap:48px;animation:marquee 32s linear infinite;font-family:var(--display);font-size:22px;letter-spacing:.06em;text-transform:uppercase}
-  .strip-track i{font-style:normal;opacity:.45}
-  @keyframes marquee{to{transform:translateX(-50%)}}
 
   /* ---------- SECTIONS ---------- */
   section{padding:120px 0}
@@ -240,12 +235,6 @@
   <div class="scroll-cue"></div>
 </header>
 
-<div class="strip" aria-hidden="true">
-  <div class="strip-track">
-    <span>Hardwood</span><i>●</i><span>Laminate</span><i>●</i><span>Luxury Vinyl</span><i>●</i><span>Vinyl Tile</span><i>●</i><span>Carpet</span><i>●</i><span>Floor Repair</span><i>●</i><span>Free Estimates</span><i>●</i>
-    <span>Hardwood</span><i>●</i><span>Laminate</span><i>●</i><span>Luxury Vinyl</span><i>●</i><span>Vinyl Tile</span><i>●</i><span>Carpet</span><i>●</i><span>Floor Repair</span><i>●</i><span>Free Estimates</span><i>●</i>
-  </div>
-</div>
 
 <section id="about">
   <div class="wrap intro">
